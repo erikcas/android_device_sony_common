@@ -28,6 +28,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/sony/common/releasetools
 # Kernel source
 TARGET_KERNEL_SOURCE := kernel/sony/msm
 
+# Use actual kernel headers
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+
 # DSP Manager
 TARGET_USE_DEVICE_AUDIO_EFFECTS_CONF := true
 
