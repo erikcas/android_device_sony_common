@@ -82,9 +82,9 @@ MASTER_SIDE_CP_TARGET_LIST := msm8996
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 audio-hal := hardware/qcom/audio
-display-hal := hardware/qcom/display/msm8996
+display-hal := hardware/qcom/display/msm8994
 gps-hal := hardware/qcom/gps/msm8994
-media-hal := hardware/qcom/media/msm8996
+media-hal := hardware/qcom/media/msm8974
 
 include $(display-hal)/Android.mk
 include $(call all-makefiles-under,$(audio-hal))
