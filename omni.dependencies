@@ -3,7 +3,7 @@
     "remote":       "choose",
     "repository":   "android_kernel_sony_msm8994",
     "target_path":  "kernel/sony/msm",
-    "revision":     "LA.BF64.1.2.3_rb1.6"
+    "revision":     "LA.BF64.1.2.3_rb1.7"
   },
   {
     "remote":       "omnirom",
@@ -15,6 +15,12 @@
     "remote":       "omnirom",
     "repository":   "android_hardware_sony_dataservices",
     "target_path":  "hardware/sony/dataservices",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_thermanager",
+    "target_path":  "hardware/sony/thermanager",
     "revision":     "android-7.0"
   },
   {
