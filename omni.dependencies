@@ -1,9 +1,9 @@
 [
   {
-    "remote":       "omnirom",
-    "repository":   "android_kernel_sony_msm",
+    "remote":       "choose",
+    "repository":   "android_kernel_sony_msm8994",
     "target_path":  "kernel/sony/msm",
-    "revision":     "android-7.0"
+    "revision":     "LA.BF64.1.2.3_rb1.6"
   },
   {
     "remote":       "omnirom",
@@ -19,12 +19,6 @@
   },
   {
     "remote":       "omnirom",
-    "repository":   "android_hardware_sony_thermanager",
-    "target_path":  "hardware/sony/thermanager",
-    "revision":     "android-7.0"
-  },
-  {
-    "remote":       "omnirom",
     "repository":   "android_hardware_sony_timekeep",
     "target_path":  "hardware/sony/timekeep",
     "revision":     "android-7.0"
@@ -36,10 +30,10 @@
     "revision":     "android-7.0"
   },
   {
-    "remote":       "omnirom",
+    "remote":       "choose",
     "repository":   "android_device_sony_sepolicy",
     "target_path":  "device/sony/sepolicy",
-    "revision":     "android-7.0"
+    "revision":     "android-7.1"
   },
   {
     "remote":       "omnirom",
@@ -49,20 +43,33 @@
   },
   {
     "remote":       "omnirom",
-    "repository":   "android_hardware_sony_camera",
-    "target_path":  "hardware/sony/camera",
-    "revision":     "android-7.0"
-  },
-  {
-    "remote":       "omnirom",
     "repository":   "android_packages_apps_ExtendedSettings",
     "target_path":  "packages/apps/ExtendedSettings",
     "revision":     "android-7.0"
   },
   {
-    "remote":       "omnirom",
-    "repository":   "android_packages_apps_FMRadio",
-    "target_path":  "packages/apps/FMRadio",
-    "revision":     "android-7.0"
+    "remote": "omnirom",
+    "repository": "android_packages_apps_SnapdragonCamera",
+    "target_path": "packages/apps/SnapdragonCamera",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_display-caf-msm8992",
+    "target_path": "hardware/qcom/display-caf-msm8992",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_media-caf-msm8992",
+    "target_path": "hardware/qcom/media-caf-msm8992",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "choose",
+    "repository": "android_hardware_qcom_audio-caf-msm8992",
+    "target_path": "hardware/qcom/audio-caf-msm8992",
+    "revision": "android-7.1"
   }
+
 ]
