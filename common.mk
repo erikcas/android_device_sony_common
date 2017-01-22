@@ -134,7 +134,12 @@ PRODUCT_PACKAGES += \
 
 # QCOM OSS
 PRODUCT_PACKAGES += \
-   librmnetctl
+    librmnetctl
+
+# QCOM GPS
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -150,6 +155,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libemoji
+
+# RIL
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full
 
 # ExtendedSettings
 PRODUCT_PACKAGES += \
