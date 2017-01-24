@@ -188,6 +188,29 @@ on boot
     chown system graphics /sys/class/graphics/fb0/idle_time
     chmod 0664 /sys/class/graphics/fb0/idle_time
 
+    # MHL driver. To support MHL power off charge,
+    # the insmod must be done before chargemon.
+    chown system system /sys/devices/virtual/mhl/ga/connected_ver
+    chown system system /sys/devices/virtual/mhl/ga/connected_cable
+    chown system system /sys/devices/virtual/mhl/ga/monitor_name
+    chown system system /sys/devices/virtual/mhl/ga/manufacturer_name
+
+    # System setting access from white balance app into fb.
+    chown system graphics /dev/graphics/fb0
+    chown system graphics /dev/graphics/fb1
+    chown system graphics /dev/graphics/fb2
+ 
+    # Change permissions for fps_level nodes
+    chown system graphics /sys/class/graphics/fb0/msm_fb_fps_level
+    chown system graphics /sys/class/graphics/fb1/msm_fb_fps_level
+    chown system graphics /sys/class/graphics/fb2/msm_fb_fps_level
+    chmod 644 /sys/class/graphics/fb0/msm_fb_fps_level
+    chmod 400 /sys/class/graphics/fb1/msm_fb_fps_level
+    chmod 400 /sys/class/graphics/fb2/msm_fb_fps_level
+
+    chown system system /sys/devices/virtual/graphics/fb0/rgb
+    chmod 0660 /sys/devices/virtual/graphics/fb0/rgb
+
     chown system graphics /sys/class/graphics/fb1/avi_itc
     chown system graphics /sys/class/graphics/fb1/avi_cn0_1
     chown system graphics /sys/class/graphics/fb1/hpd
@@ -195,6 +218,7 @@ on boot
     chown system graphics /sys/class/graphics/fb1/vendor_name
     chown system graphics /sys/class/graphics/fb1/video_mode
     chown system graphics /sys/class/graphics/fb1/hdcp/tp
+    chown system graphics /sys/class/graphics/fb1/format_3d
     chmod 0664 /sys/class/graphics/fb1/avi_itc
     chmod 0664 /sys/class/graphics/fb1/avi_cn0_1
     chmod 0664 /sys/class/graphics/fb1/hpd
@@ -202,6 +226,7 @@ on boot
     chmod 0664 /sys/class/graphics/fb1/vendor_name
     chmod 0664 /sys/class/graphics/fb1/video_mode
     chmod 0664 /sys/class/graphics/fb1/hdcp/tp
+    chmod 0664 /sys/class/graphics/fb1/format_3d
 
     # FB2 permissions
     chown system graphics /sys/class/graphics/fb2/ad
