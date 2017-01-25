@@ -48,6 +48,12 @@
     "revision":     "android-7.0"
   },
   {
+    "remote":       "choose",
+    "repository":   "android_hardware_sony_camera",
+    "target_path":  "hardware/qcom/camera",
+    "revision":     "LA.BF64.1.2.3_rb1.7"
+  },
+  {
     "remote":       "omnirom",
     "repository":   "android_packages_apps_ExtendedSettings",
     "target_path":  "packages/apps/ExtendedSettings",
