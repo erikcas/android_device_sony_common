@@ -30,6 +30,10 @@ on init
     # Set permissions for firmware partition
     mkdir /firmware 0771 system system
 
+    # Create directory used by display clients
+    mkdir /data/misc/display 0770 system graphics
+    mkdir /persist/display 0770 system graphics
+
     # Set permissions for persist partition
     mkdir /persist 0771 system system
 
