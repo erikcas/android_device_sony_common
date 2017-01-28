@@ -272,10 +272,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.port=I2C
 
-# Camera
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.time.monotonic=0
-
 # Sensors debug
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.sensors.hal=0 \
