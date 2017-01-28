@@ -3,7 +3,7 @@
     "remote":       "choose",
     "repository":   "android_kernel_sony_msm8994",
     "target_path":  "kernel/sony/msm",
-    "revision":     "LA.BF64.1.2.3_rb1.7"
+    "revision":     "7.1-caf"
   },
   {
     "remote":       "omnirom",
