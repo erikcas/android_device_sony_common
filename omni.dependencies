@@ -49,6 +49,12 @@
   },
   {
     "remote":       "choose",
+    "repository":   "android_hardware_qcom_location",
+    "target_path":  "hardware/qcom/location",
+    "revision":     "android-7.1"
+  },
+  {
+    "remote":       "choose",
     "repository":   "android_hardware_sony_camera",
     "target_path":  "hardware/qcom/camera",
     "revision":     "LA.BF64.1.2.3_rb1.7"
