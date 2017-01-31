@@ -271,7 +271,7 @@ service tad_static /system/vendor/bin/tad_static /dev/block/bootdevice/by-name/T
     class core
     user root
     group drmrpc
-    socket tad stream 0660 system system
+    socket tad stream 0660 root drmrpc
     seclabel u:r:tad:s0
     writepid /dev/cpuset/system-background/tasks
 
